@@ -15,6 +15,14 @@
 		046EA3591DAF6AB2006BEA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046EA3571DAF6AB2006BEA99 /* LaunchScreen.storyboard */; };
 		046EA3641DAF6AB2006BEA99 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA3631DAF6AB2006BEA99 /* _____Tests.m */; };
 		046EA36F1DAF6AB2006BEA99 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA36E1DAF6AB2006BEA99 /* _____UITests.m */; };
+		046EA3871DAF6E6A006BEA99 /* KZVideoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA37E1DAF6E6A006BEA99 /* KZVideoConfig.m */; };
+		046EA3881DAF6E6A006BEA99 /* KZVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA3801DAF6E6A006BEA99 /* KZVideoListViewController.m */; };
+		046EA3891DAF6E6A006BEA99 /* KZVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA3821DAF6E6A006BEA99 /* KZVideoPlayer.m */; };
+		046EA38A1DAF6E6A006BEA99 /* KZVideoSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA3841DAF6E6A006BEA99 /* KZVideoSupport.m */; };
+		046EA38B1DAF6E6A006BEA99 /* KZVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EA3861DAF6E6A006BEA99 /* KZVideoViewController.m */; };
+		046EA38E1DAF701A006BEA99 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046EA38D1DAF701A006BEA99 /* Photos.framework */; };
+		046EA3901DAF7029006BEA99 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046EA38F1DAF7028006BEA99 /* AVFoundation.framework */; };
+		046EA3921DAF7048006BEA99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046EA3911DAF7048006BEA99 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,19 @@
 		046EA36A1DAF6AB2006BEA99 /* 小视频录制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "小视频录制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		046EA36E1DAF6AB2006BEA99 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		046EA3701DAF6AB2006BEA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046EA37D1DAF6E6A006BEA99 /* KZVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoConfig.h; sourceTree = "<group>"; };
+		046EA37E1DAF6E6A006BEA99 /* KZVideoConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoConfig.m; sourceTree = "<group>"; };
+		046EA37F1DAF6E6A006BEA99 /* KZVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoListViewController.h; sourceTree = "<group>"; };
+		046EA3801DAF6E6A006BEA99 /* KZVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoListViewController.m; sourceTree = "<group>"; };
+		046EA3811DAF6E6A006BEA99 /* KZVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoPlayer.h; sourceTree = "<group>"; };
+		046EA3821DAF6E6A006BEA99 /* KZVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoPlayer.m; sourceTree = "<group>"; };
+		046EA3831DAF6E6A006BEA99 /* KZVideoSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoSupport.h; sourceTree = "<group>"; };
+		046EA3841DAF6E6A006BEA99 /* KZVideoSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoSupport.m; sourceTree = "<group>"; };
+		046EA3851DAF6E6A006BEA99 /* KZVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoViewController.h; sourceTree = "<group>"; };
+		046EA3861DAF6E6A006BEA99 /* KZVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoViewController.m; sourceTree = "<group>"; };
+		046EA38D1DAF701A006BEA99 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		046EA38F1DAF7028006BEA99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		046EA3911DAF7048006BEA99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046EA3921DAF7048006BEA99 /* CoreGraphics.framework in Frameworks */,
+				046EA3901DAF7029006BEA99 /* AVFoundation.framework in Frameworks */,
+				046EA38E1DAF701A006BEA99 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,7 @@
 				046EA3621DAF6AB2006BEA99 /* 小视频录制Tests */,
 				046EA36D1DAF6AB2006BEA99 /* 小视频录制UITests */,
 				046EA3471DAF6AB1006BEA99 /* Products */,
+				046EA38C1DAF701A006BEA99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +126,7 @@
 		046EA3481DAF6AB1006BEA99 /* 小视频录制 */ = {
 			isa = PBXGroup;
 			children = (
+				046EA37C1DAF6E6A006BEA99 /* KZSmallVideoRecorder */,
 				046EA34C1DAF6AB1006BEA99 /* AppDelegate.h */,
 				046EA34D1DAF6AB1006BEA99 /* AppDelegate.m */,
 				046EA34F1DAF6AB1006BEA99 /* ViewController.h */,
@@ -138,6 +164,33 @@
 				046EA3701DAF6AB2006BEA99 /* Info.plist */,
 			);
 			path = "小视频录制UITests";
+			sourceTree = "<group>";
+		};
+		046EA37C1DAF6E6A006BEA99 /* KZSmallVideoRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				046EA37D1DAF6E6A006BEA99 /* KZVideoConfig.h */,
+				046EA37E1DAF6E6A006BEA99 /* KZVideoConfig.m */,
+				046EA37F1DAF6E6A006BEA99 /* KZVideoListViewController.h */,
+				046EA3801DAF6E6A006BEA99 /* KZVideoListViewController.m */,
+				046EA3811DAF6E6A006BEA99 /* KZVideoPlayer.h */,
+				046EA3821DAF6E6A006BEA99 /* KZVideoPlayer.m */,
+				046EA3831DAF6E6A006BEA99 /* KZVideoSupport.h */,
+				046EA3841DAF6E6A006BEA99 /* KZVideoSupport.m */,
+				046EA3851DAF6E6A006BEA99 /* KZVideoViewController.h */,
+				046EA3861DAF6E6A006BEA99 /* KZVideoViewController.m */,
+			);
+			path = KZSmallVideoRecorder;
+			sourceTree = "<group>";
+		};
+		046EA38C1DAF701A006BEA99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046EA3911DAF7048006BEA99 /* CoreGraphics.framework */,
+				046EA38F1DAF7028006BEA99 /* AVFoundation.framework */,
+				046EA38D1DAF701A006BEA99 /* Photos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +260,7 @@
 				TargetAttributes = {
 					046EA3451DAF6AB1006BEA99 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RUJ7S3GZH6;
 						ProvisioningStyle = Automatic;
 					};
 					046EA35E1DAF6AB2006BEA99 = {
@@ -273,8 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046EA3871DAF6E6A006BEA99 /* KZVideoConfig.m in Sources */,
+				046EA3891DAF6E6A006BEA99 /* KZVideoPlayer.m in Sources */,
 				046EA3511DAF6AB1006BEA99 /* ViewController.m in Sources */,
+				046EA3881DAF6E6A006BEA99 /* KZVideoListViewController.m in Sources */,
 				046EA34E1DAF6AB1006BEA99 /* AppDelegate.m in Sources */,
+				046EA38B1DAF6E6A006BEA99 /* KZVideoViewController.m in Sources */,
+				046EA38A1DAF6E6A006BEA99 /* KZVideoSupport.m in Sources */,
 				046EA34B1DAF6AB1006BEA99 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +481,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RUJ7S3GZH6;
 				INFOPLIST_FILE = "小视频录制/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feiteng.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +494,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RUJ7S3GZH6;
 				INFOPLIST_FILE = "小视频录制/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feiteng.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +568,7 @@
 				046EA3751DAF6AB2006BEA99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046EA3761DAF6AB2006BEA99 /* Build configuration list for PBXNativeTarget "小视频录制Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +577,7 @@
 				046EA3781DAF6AB2006BEA99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046EA3791DAF6AB2006BEA99 /* Build configuration list for PBXNativeTarget "小视频录制UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +586,7 @@
 				046EA37B1DAF6AB2006BEA99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
